@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "vagrant ALL=(ALL) NOPASSWD: ALL" > test.txt
+apt install sudo -y
 
 mkdir /home/vagrant/.ssh/
 chmod 0700 /home/vagrant/.ssh/
