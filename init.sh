@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 apt install sudo -y
 
