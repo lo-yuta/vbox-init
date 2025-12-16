@@ -1,8 +1,9 @@
 #!/bin/bash
-set -e
+set -euo pipefail
+set -x
 
 apt-get update -y
-apt-get install -y sudo wget
+apt-get install -y sudo wget vim
 
 mkdir -p /home/vagrant/.ssh
 chmod 700 /home/vagrant/.ssh
